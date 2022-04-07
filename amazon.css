@@ -147,12 +147,29 @@ button{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .dec{
     text-decoration: none;
     color: aliceblue;
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+#end1{
+    background-color: #13304a;
+    height: 100px;
+    width: 100%;
+    border-top: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#endimg2{
+    width: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
 }

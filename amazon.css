@@ -1,16 +1,63 @@
+body{
+    margin: 0px;
+}
 #start{
     display: flex;
-    background-color: aqua;
+    background-color: #111;
     align-items: center;
     align-content: center;
     justify-content: center;
 }
-.a{
-    margin-left: 100px;
+#sec{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 40px;
+    background-color: rgb(42, 48, 60);
+}
+
+.c{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.c:hover{
+    border: 1px solid white;
+}
+
+#startsearch{
+    display: flex;
+    background-color: #111;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
     margin-right: auto;
+}
+#amzimg{
+    margin-right: 5px;
+}
+.a{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a:hover{
+    border: 1px solid white;
+}
+#singin{
+    color: aliceblue;
+    text-decoration: none;
 }
 #btn{
     height: 40px;
+    background-color: rgb(236, 169, 87);
+    border: 1px solid rgb(247, 162, 57);
+    cursor: pointer;
 }
 #div1{
     display: flex;
@@ -18,11 +65,35 @@
     align-content: center;
     margin: 10px;
 }
+#cart{
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.b{
+    height: 45px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.b:hover{
+    border: 2px solid rgb(247, 162, 57);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.b:active{
+    border: 2px solid #004B91;
+    border-radius: 5px;
+}
 #div2{
     margin-left: 35px;
+    margin-right: 100px;
+}
+#divBimg{
+    margin-right: 100px;
 }
 #img-line{
-    background-color: honeydew;
+    background-color: rgb(240, 240, 240);
     display: flex;
     align-items: center;
     align-content: center;
@@ -45,11 +116,12 @@
 button{
     border: none;
     color: rgb(255, 255, 255);
-    background-color: darkslateblue;
+    height: 40px;
+    background-color: #004B91;
     text-align: center;
     display: inline-block;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     width: 100%;
 }
 #txt{
